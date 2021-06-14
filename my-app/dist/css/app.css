@@ -1,32 +1,33 @@
 @import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap);
-#header {
+#header_site {
   display: flex;
   justify-content: space-between;
   margin-top: 25px;
   border-bottom: 1px solid #58402c;
 }
-#header .left_header {
+#header_site .left_header {
   display: flex;
   align-items: center;
 }
-#header .left_header i {
+#header_site .left_header i {
   font-size: 35px;
-  padding: 20px;
+  padding: 15px;
 }
-#header .left_header h1 {
+#header_site .left_header span {
+  font-size: 30px;
   font-weight: 400;
 }
-#header .right_header {
+#header_site .right_header {
   display: flex;
   align-items: center;
 }
-#header nav a {
+#header_site nav a {
   text-decoration: none;
   padding: 1rem;
   font-weight: 600;
   color: #58402c;
 }
-#header button {
+#header_site button {
   padding: 15px;
   border-radius: 5px;
   border: 1px solid #2d4892;
@@ -36,12 +37,11 @@
   align-items: center;
   margin-left: 20px;
 }
-#header button i {
-  font-size: 20px;
+#header_site button img {
+  height: 25px;
   margin-right: 10px;
-  color: #d30c0c;
 }
-#header button span {
+#header_site button span {
   font-weight: 600;
   font-size: 17px;
 }
@@ -57,4 +57,24 @@ body {
   width: 75%;
   margin: auto;
   color: #58402c;
+}
+
+#main_site {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+#main_site .jumbotron {
+  width: 50%;
+}
+#main_site .jumbotron h1 {
+  font-size: 55px;
+  line-height: 85px;
+}
+#main_site .jumbotron h4 {
+  font-size: 30px;
+  font-weight: 400;
+}
+#main_site img {
+  height: 400px;
 }
