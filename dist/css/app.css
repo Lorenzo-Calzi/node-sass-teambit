@@ -142,3 +142,37 @@ body {
   border: 1px solid #58402c;
   margin-bottom: 70px;
 }
+
+.white_content {
+  display: flex;
+  margin-top: 75px;
+}
+.white_content .white_img {
+  width: 50%;
+}
+.white_content .white_img img {
+  width: 100%;
+}
+.white_content .white_text {
+  width: 50%;
+}
+.white_content .white_text .container_text h3 {
+  font-size: 30px;
+  line-height: 50px;
+  margin-bottom: 60px;
+}
+.white_content .white_text .container_text p {
+  font-size: 26px;
+  margin-bottom: 40px;
+}
+.white_content .white_text .container_text a {
+  text-decoration: none;
+  color: #2c4792;
+  font-size: 23px;
+  font-weight: 500;
+  display: block;
+}
+.white_content .white_text .container_text img {
+  margin-top: 40px;
+  height: 350px;
+}

@@ -1,0 +1,39 @@
+.white_content{
+    display: flex;
+    margin-top: 75px;
+
+    .white_img{
+        width: 50%;
+
+        img{
+            width: 100%;
+        }
+    }
+
+    .white_text{
+        width: 50%;
+
+        .container_text{
+
+            h3{
+                font-size: 30px;
+                line-height: 50px;
+                margin-bottom: 60px;
+            }
+
+            p{
+                font-size: 26px;
+                margin-bottom: 40px;
+            }
+
+            a{
+                @include link-nostyle
+            }
+            img{
+                margin-top: 40px;
+                height: 350px;
+            }
+        }
+        
+    }
+}
