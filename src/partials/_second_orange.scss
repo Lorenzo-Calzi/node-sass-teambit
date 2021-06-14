@@ -1,0 +1,55 @@
+.second_orange{
+    background-color: $bg-orange;
+    padding-top: 100px;
+    text-align: center;
+
+    h2{
+        font-size: 40px;
+    }
+
+    .container_orange{
+        display: flex;
+        justify-content: center;
+    }
+    .paragraph{
+        border: 1px solid $secondary;
+        width: 550px;
+        padding: 20px;
+        border-radius: 10px;
+        background-color: white;
+        margin-top: 50px;
+
+        p{
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+
+        img{
+            height: 60px;
+        }
+    }
+
+    .button_flex{
+        display: flex;
+        align-items: center;
+        margin: 50px 0 10px 0;
+
+        button{
+            @include blu-bg;
+    
+            img{
+                height: 20px;
+                margin-right: 5px;
+            }
+        }
+    }
+
+    span{
+        margin: 5px;
+        font-weight: 600;
+    }
+
+    
+
+    
+}
