@@ -1,6 +1,10 @@
 @mixin blu-bg {
-    background-color: rgba(44, 71, 146, 1);
+    background-color: $secondary;
     color: white;
-    padding: 10px;
+    padding: 5px 7px;
     border-radius: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
 }

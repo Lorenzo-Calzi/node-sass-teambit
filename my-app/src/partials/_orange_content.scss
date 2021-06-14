@@ -1,0 +1,27 @@
+.orange_content{
+    background-color: $bg-orange;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 150px;
+    border-bottom: 1px solid $primary;
+
+    h3{
+        font-size: 30px;
+        line-height: 50px;
+        width: 40%;
+        margin: auto;
+        padding: 45px 0 70px 0;
+    }
+
+    .image_flex{
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 130px;
+
+        img{
+            height: 150px;
+            margin-bottom: 20px;
+        }
+    }
+    
+}

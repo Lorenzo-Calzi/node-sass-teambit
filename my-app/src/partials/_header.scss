@@ -2,7 +2,8 @@
     display: flex;
     justify-content: space-between;
     margin-top: 25px;
-    border-bottom: 1px solid rgba(88, 64, 44, 1);
+    border-bottom: 1px solid $primary;
+    padding-bottom: 5px;
 
     .left_header{
         display: flex;
@@ -29,16 +30,16 @@
             text-decoration: none;
             padding: 1rem;
             font-weight: 600;
-            color: rgba(88, 64, 44, 1);
+            color: $primary;
         }
     }
 
     button{
         padding: 15px ;
         border-radius: 5px;
-        border: 1px solid rgba(45, 72, 146, 1);
+        border: 1px solid $secondary;
         background-color: white;
-        color:rgba(45, 72, 146, 1);
+        color:$secondary;
         display: flex;
         align-items: center;
         margin-left: 20px;

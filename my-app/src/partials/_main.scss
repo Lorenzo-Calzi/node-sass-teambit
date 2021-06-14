@@ -1,24 +1,4 @@
 #main_site{
-    display: flex;
-    justify-content: space-between;
     width: 100%;
-
-    .jumbotron{
-        width: 50%;
-        h1{
-            font-size: 55px;
-            line-height: 85px;
-        }
-        h4{
-            font-size: 30px;
-            font-weight: 400;
-        }
-        button{
-            @include blu-bg;
-        }
-    }
-
-    img{
-        height: 400px;
-    }
+    margin-top: 50px;
 }

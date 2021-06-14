@@ -1,0 +1,47 @@
+.container_jumbo{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    width: 75%;
+    margin: auto;
+    
+    .jumbotron{
+        width: 50%;
+
+        h1{
+            font-size: 55px;
+            line-height: 85px;
+        }
+        h4{
+            font-size: 27px;
+            font-weight: 400;
+            line-height: 40px;
+        }
+        .jumbo_button{
+            display: flex;
+            align-items: center;
+            margin: 50px 0 20px 0;
+    
+            span{
+                margin: 5px;
+            }
+    
+            button{
+                @include blu-bg;
+    
+                img{
+                    height: 20px;
+                    margin-right: 5px;
+                }
+            }
+        }  
+    }
+    
+    span{
+        font-weight: 600;
+    }
+    
+    img{
+        height: 400px;
+    }
+}
