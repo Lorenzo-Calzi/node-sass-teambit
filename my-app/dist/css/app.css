@@ -120,8 +120,7 @@ body {
   background-color: #ffe7d2;
   text-align: center;
   width: 100%;
-  padding-bottom: 150px;
-  border-bottom: 1px solid #58402c;
+  padding-bottom: 50px;
 }
 .orange_content h3 {
   font-size: 30px;
@@ -138,4 +137,8 @@ body {
 .orange_content .image_flex img {
   height: 150px;
   margin-bottom: 20px;
+}
+.orange_content hr {
+  border: 1px solid #58402c;
+  margin-bottom: 70px;
 }
