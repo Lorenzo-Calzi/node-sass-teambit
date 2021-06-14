@@ -1,0 +1,29 @@
+#site_footer{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0 50px 0;
+
+    .column{
+        width: calc(100% / 7);
+
+        h4{
+            font-size: 25px;
+        }
+
+        ul{
+            list-style: none;
+
+            li{
+                margin-top: 10px;
+                font-weight: 600;
+            }
+        }
+
+        p{
+            width: 50%;
+            font-weight: 600;
+        }
+    }
+}
